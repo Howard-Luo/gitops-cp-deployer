@@ -41,7 +41,7 @@ cp4d:
   # - text-to-speech
   # - watson-assistant
   # - watson-discovery
-  # - watsonx-ai
+  - watsonx-ai
   # - watsonx-code-assistant-ansible
   # - watsonx-code-assistant-z
   # - watsonx-data
@@ -282,7 +282,7 @@ cp4d:
 
   - name: watsonx_ai
     description: watsonx.ai
-    state: removed
+    state: installed
     installation_options:
       tuning_disabled: true
       lite_install: false
